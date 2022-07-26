@@ -13,7 +13,7 @@ body {
     color: #5b5e6d; 
 }
 
-@media only screen and (min-device-width: 0px) and (max-device-width: 768px) {
+@media (max-width: 768px){
     .differentFont {
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
@@ -21,6 +21,7 @@ body {
     p {
         font-size: 1.8rem;
     }
+
     nav {
         display: flex;
         flex-direction: row;
@@ -191,6 +192,21 @@ body {
     }
 }
 
-@media only screen and (min-device-width: 767px) and (max-device-width: 961px){
+@media (min-width: 767px) and (max-width: 961px){
+    .differentFont {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    p {
+        font-size: 1.8rem;
+    }
+
+}
+
+@media (min-width: 960) and (max-width: 1024px){
+
+}
+
+@media (min-width: 1200px){
 
 }
