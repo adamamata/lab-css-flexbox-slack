@@ -32,7 +32,7 @@ body {
     }
 
     nav > img {
-        width: 25vw;
+        width: 15vw;
         margin-top: 0.5rem;
         margin-left: 3.5rem;
     }
@@ -52,7 +52,7 @@ body {
         margin-left: 3.5rem;
         margin-bottom: 2rem;
         padding-right: 2rem;
-        line-height: 4vh;
+        line-height: 8vh;
     }
 
     #getStartedSection {
@@ -200,7 +200,7 @@ body {
     p {
         font-size: 1.8rem;
     }
-    
+
     nav {
         display: flex;
         flex-direction: row;
@@ -208,6 +208,170 @@ body {
         align-items: center;
         border-bottom: 1px solid lightgrey;
         position: sticky;
+    }
+
+    nav > img {
+        width: 15vw;
+        margin-top: 0.5rem;
+        margin-left: 3.5rem;
+    }
+
+    nav li {
+        display: none;
+    }
+
+    h1 {
+        font-size: 4em;
+        margin-left: 3.5rem;
+        width: 80vw;
+        color: #2C303F;
+    }
+
+    header > p {
+        margin-left: 3.5rem;
+        margin-bottom: 2rem;
+        padding-right: 2rem;
+        line-height: 8vh;
+    }
+
+    #getStartedSection {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-end;
+    }
+
+    input {
+        font-size: 1.8rem;
+        width: 50vw;
+        height: 12vw;
+        border: 1px solid lightgrey;
+        margin-left: 3.5rem;
+    }
+
+    button {
+        width: 20vw;
+        height: 12.5vw;
+        font-weight: bold;
+        font-size: 1.5rem;
+        margin-left: 2vw;
+    }
+
+    .purpleButton {
+        background-color: #4049AA;
+        border: none;
+        color: white;
+        margin-top: 5vw;
+        
+    }
+
+    header > img {
+        width: 100vw;
+    }
+
+    #discoverWhySection {
+        background-color:#F4F3F4 ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-bottom: 1px solid lightgrey;
+        border-top: 1px solid lightgrey;
+    }
+
+    #discoverWhySection > h2 {
+        font-size: 3rem;
+    }
+
+    #discoverWhySection > p {
+        width: 60vw;
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    #discoverWhySection > button {
+        border: 2px solid #192592;
+        background-color: white;
+        color: #192592;
+        margin-bottom: 10vh;
+        
+    }
+
+    .logoImage {
+        width: 25vw;
+        margin: 10vw;
+        padding-bottom: 10vw;
+    }
+
+    #logoSection {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        background-color:#F4F3F4;
+    }
+
+    #tryItForFreeSection {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border-top: 1px solid lightgrey;
+        border-bottom: 1px solid lightgrey;
+        padding-bottom: 10vw;
+    }
+
+    #tryItForFree{
+        font-size: 3rem;
+        font-weight: bold;
+        margin-bottom: 0;
+        margin-top: 10vw;
+    }
+
+    #lists{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 2vw;
+        font-size: 1.8rem;
+    }
+
+    #lists li {
+        list-style: none;
+        height: 10vw;
+    }
+
+    .listHeader {
+        font-weight: bold;
+    }
+
+    #bottomSection{
+        background-color:#F4F3F4 ;
+        font-size: 1.8rem;
+        padding: 10px;
+    }
+
+    #bottomSection > ul{
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        font-weight: bold;
+    }
+
+    #flag{
+        width: 5vw;
+    }
+
+    #bottomPart{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #lastPart{
+        margin-top: 2vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
     }
 }
 
