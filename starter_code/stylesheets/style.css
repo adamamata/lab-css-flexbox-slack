@@ -5,3 +5,136 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5b5e6d; 
+}
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 768px) {
+    .differentFont {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    p {
+        font-size: 1.8rem;
+    }
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space;
+        align-items: center;
+        border-bottom: 1px solid lightgrey;
+        position: sticky;
+    }
+
+    nav > img {
+        width: 25vw;
+        margin-top: 0.5rem;
+        margin-left: 3.5rem;
+    }
+
+    nav li {
+        display: none;
+    }
+
+    h1 {
+        font-size: 4em;
+        margin-left: 3.5rem;
+        width: 80vw;
+        color: #2C303F;
+    }
+
+    header > p {
+        margin-left: 3.5rem;
+        margin-bottom: 2rem;
+        padding-right: 2rem;
+        line-height: 4vh;
+    }
+
+    #getStartedSection {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    input {
+        font-size: 1.8rem;
+        width: 80vw;
+        height: 12vw;
+        border: 1px solid lightgrey;
+    }
+
+    button {
+        width: 82vw;
+        height: 12vw;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+
+    .purpleButton {
+        background-color: #4049AA;
+        border: none;
+        color: white;
+        margin-top: 5vw;
+        
+    }
+
+    header > img {
+        width: 100vw;
+    }
+
+    #discoverWhySection {
+        background-color:#F4F3F4 ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    #discoverWhySection > h2 {
+        font-size: 3rem;
+    }
+
+    #discoverWhySection > p {
+        width: 60vw;
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    #discoverWhySection > button {
+        border: 2px solid #192592;
+        background-color: white;
+        color: #192592;
+        margin-bottom: 10vh;
+        
+    }
+
+    .logoImage {
+        width: 50vw;
+        margin: 10vw;
+        padding-bottom: 10vw;
+    }
+
+    #logoSection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color:#F4F3F4;
+    }
+
+    #tryItForFreeSection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-bottom: 1px solid grey;
+        
+    }
+}
+
+@media only screen and (min-device-width: 767px) and (max-device-width: 961px){
+
+}
