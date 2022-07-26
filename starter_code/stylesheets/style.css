@@ -192,7 +192,7 @@ body {
     }
 }
 
-@media (min-width: 767px) and (max-width: 961px){
+@media only screen and (min-width: 767px) and (max-width: 961px){
     .differentFont {
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
@@ -200,7 +200,7 @@ body {
     p {
         font-size: 1.8rem;
     }
-
+    
 }
 
 @media (min-width: 960) and (max-width: 1024px){
