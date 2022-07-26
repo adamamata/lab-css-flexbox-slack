@@ -13,7 +13,7 @@ body {
     color: #5b5e6d; 
 }
 
-@media (max-width: 768px){
+@media only screen and (min-width: 0px) and (max-width: 768px){
     .differentFont {
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
@@ -201,6 +201,14 @@ body {
         font-size: 1.8rem;
     }
     
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid lightgrey;
+        position: sticky;
+    }
 }
 
 @media (min-width: 960) and (max-width: 1024px){
